@@ -13,7 +13,7 @@
   --dairy: #fcfcfc;
 }
 
-/* Use Roboto and Raleway directly, not variables */
+
 body {
   color: var(--slate);
   font-family: "Roboto", sans-serif;
@@ -33,6 +33,14 @@ header address :hover {
 
   color: var(--ocean);
 }
+header nav {
+ font-family: "Raleway", sans-serif;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 1.17;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
 
 header li a {
   color: var(--navy-blue);
@@ -49,19 +57,11 @@ main {
   font-family: "Roboto", sans-serif;
 }
 
-a #span {
+a .span {
   color: var(--navy-blue); 
   text-decoration: none;
 }
-a #web {
-  color: var(--iris);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase
-}
+
 
 button {
   background: var(--iris);
