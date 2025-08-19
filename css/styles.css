@@ -19,27 +19,29 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
 }
-header address {
+header address .contact {
   font-style: normal;
-  color: var(--slate);
+  color: #434455;
+
 }
 
 header address :focus {
 
-  color: var(--ocean);
+  color: #404bbf;
 }
 
 header address :hover {
 
-  color: var(--ocean);
+  color: #404bbf;
 }
-header nav {
- font-family: "Raleway", sans-serif;
- font-weight: 700;
- font-size: 18px;
- line-height: 1.17;
- letter-spacing: 0.03em;
- text-transform: uppercase;
+header nav a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 header li a {
@@ -58,7 +60,7 @@ main {
 }
 
 a .span {
-  color: var(--navy-blue); 
+  color: #2e2f42;
   text-decoration: none;
 }
 
