@@ -9,7 +9,7 @@
   --cloud: #f4f4fd;
   --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
+  --white: #ffffff;
   --dairy: #fcfcfc;
 }
 
@@ -19,18 +19,31 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
 }
-header address .contact {
+header address  {
   font-style: normal;
   color: #434455;
 
 }
+header address a {
+  color: #434455;
+}
 
-header address :focus {
+header address ul li :focus {
 
   color: #404bbf;
 }
 
-header address :hover {
+header address ul li :hover {
+
+  color: #404bbf;
+}
+
+header nav ul li :focus {
+
+  color: #404bbf;
+}
+
+header nav ul li :hover {
 
   color: #404bbf;
 }
@@ -67,17 +80,28 @@ a .span {
 
 button {
   background: var(--iris);
+  
 }
 
-#sec1 {
+.sec1 {
   background-color: var(--navy-blue);
 }
 
-#sec2 {
+
+.sec1 .sec1-h1 {
+  color: var(--white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+
+.sec2 {
   background-color: var(--cloud);
 }
 
-#sec3 {
+.sec3 {
   background-color: var(--dairy);
 }
 
@@ -86,3 +110,5 @@ footer {
   color: #fff;
   text-align: left;
 }
+
+
