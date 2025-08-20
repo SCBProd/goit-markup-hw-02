@@ -83,12 +83,12 @@ button {
   
 }
 
-.sec1 {
+.sec {
   background-color: var(--navy-blue);
 }
 
 
-.sec1 .sec1-h1 {
+.secone {
   color: var(--white);
   font-size: 56px;
   line-height: 1.07;
@@ -97,11 +97,11 @@ button {
 }
 
 
-.sec2 {
+.sectwo {
   background-color: var(--cloud);
 }
 
-.sec3 {
+.sectree {
   background-color: var(--dairy);
 }
 
