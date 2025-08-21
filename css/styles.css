@@ -66,10 +66,10 @@ p {
 
 header a.logo {
   font-family: var(--second-family);
-  font-weight: 500;
+  font-weight: 700;
     font-size: 18px;
     /* line-height: 21px; */
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
@@ -83,17 +83,31 @@ header span.header-logo-word {
 
 
 header nav ul.main-nav-list {
-  background: var(--white);
-  font-family: var(--font-family);
-  line-height: 1.17;
+ font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
+/* 1. Колір тексту для першого посилання */
+header nav ul.main-nav-list li:first-child a.link {
+  color: #2e2f42;
+}
+
+/* 2. Зміна кольору при ховері */
+header nav ul.main-nav-list li:first-child a.link:hover {
+  color: #404bbf;
+}
+
+/* 3. Зміна кольору при фокусі */
+header nav ul.main-nav-list li:first-child a.link:focus {
+  color: #404bbf;
+}
 
 header address.contact {
   font-family: var(--font-family);
-  
+  font-style: normal;
   font-weight: 400;
     font-size: 16px;
   
@@ -101,6 +115,23 @@ header address.contact {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+}
+// ...existing code...
+.contact-link {
+  letter-spacing: 0.02em;
+  /* Відступи між літерами */
+  color: #434455;
+  /* Колір шрифту */
+}
+
+.contact-link:hover {
+  color: #404bbf;
+  /* Зміна кольору при наведенні */
+}
+
+.contact-link:focus {
+  color: #404bbf;
+  /* Зміна кольору при фокусі */
 }
 #secone {
   background: var(--navy-blue);
