@@ -66,7 +66,7 @@ p {
 
 header a.logo {
   font-family: var(--second-family);
-  font-weight: 700;
+  font-weight: 500;
     font-size: 18px;
     /* line-height: 21px; */
     line-height: 1.16667;
@@ -74,13 +74,23 @@ header a.logo {
     text-transform: uppercase;
     color: var(--iris);
 }
-header {
+
+
+header span.header-logo-word {
+  color: #2e2f42;
+}
+
+
+
+header nav ul.main-nav-list {
   background: var(--white);
   font-family: var(--font-family);
-  line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
+
+
 header address.contact {
   font-family: var(--font-family);
   
@@ -99,12 +109,11 @@ header address.contact {
     font-size: 56px;
     line-height: 1.07143;
       letter-spacing: 0.02em;
-      text-align: center;
       color: var(--white);
 }
 
 #secone button.order-button {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
   background: var(--iris);
 
   font-weight: 500;
@@ -130,6 +139,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 #secthree {
 background: var(--cloud);
 }
+
 #secfour {
   background: var(--white);
 }
