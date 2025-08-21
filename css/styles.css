@@ -1,16 +1,19 @@
 :root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: rgba(46, 47, 66, 0.4);
-  --grey: rgba(46, 47, 66, 0.7);
-  --white: #ffffff;
-  --dairy: #fcfcfc;
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
 
 
@@ -19,96 +22,141 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
 }
-header address  {
-  font-style: normal;
-  color: #434455;
 
-}
-header address a {
-  color: #434455;
-}
-
-header address ul li :focus {
-
-  color: #404bbf;
-}
-
-header address ul li :hover {
-
-  color: #404bbf;
-}
-
-header nav ul li :focus {
-
-  color: #404bbf;
-}
-
-header nav ul li :hover {
-
-  color: #404bbf;
-}
-header nav a {
-  font-family: "Raleway", sans-serif;
+h1 {
+ font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  /* line-height: 21px; */
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
-header li a {
-  color: var(--navy-blue);
-  background-color: var(--white);
-  font-family: "Roboto", sans-serif;
+h2 {
+   font-weight: 500;
+   font-size: 20px;
+
+   /* line-height: 24px; */
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--navy-blue);
+}
+h3 {
+  font-weight: 500;
+    font-size: 20px;
+  
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+p {
+  font-weight: 400;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+header a.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+    font-size: 18px;
+    /* line-height: 21px; */
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+header {
+  background: var(--white);
+  font-family: var(--font-family);
+  line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+header address.contact {
+  font-family: var(--font-family);
+  
+  font-weight: 400;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+#secone {
+  background: var(--navy-blue);
+  font-family: var(--font-family);
+  font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: var(--white);
+}
+
+#secone button.order-button {
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+
   font-weight: 500;
   font-size: 16px;
+
+  /* line-height: 24px; */
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
-main {
-  font-family: "Roboto", sans-serif;
-}
-
-a .span {
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-
-button {
-  background: var(--iris);
-  
-}
-
-.sec {
-  background-color: var(--navy-blue);
-}
-
-
-.secone {
+  letter-spacing: 0.04em;
   color: var(--white);
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
 }
 
 
-.sectwo {
-  background-color: var(--cloud);
+#sectwo {
+  font-weight: 400;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
-.sectree {
-  background-color: var(--dairy);
+#secthree {
+background: var(--cloud);
 }
+#secfour {
+  background: var(--white);
+}
+
 
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: left;
+  background: var(--navy-blue);
 }
 
+footer a.web {
+  font-weight: 700;
+    font-size: 18px;
+  font-family: var(--second-family);
+    /* line-height: 21px; */
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+}
 
+footer a.logo {
+font-weight: 700;
+  font-size: 18px;
+font-family: var(--second-family);
+  /* line-height: 21px; */
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
