@@ -134,7 +134,8 @@ header address.contact ul li a {
   font-family: var(--font-family);
   font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    text-align: center;
+    line-height: 1.07;
       letter-spacing: 0.02em;
       color: var(--white);
 }
@@ -150,7 +151,18 @@ header address.contact ul li a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
+  cursor: pointer;
 }
+
+
+
+
+.secone button.order-button:hover,
+.secone button.order-button:focus {
+  background-color: var(--ocean);
+}
+
+
 
 
 .sectwo {
