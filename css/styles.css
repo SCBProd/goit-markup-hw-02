@@ -80,7 +80,7 @@ p {
 }
 
 .header-logo-word {
-  color: var(--grey);
+  color: #2e2f42;
 }
 
 .header-nav-ul a {
@@ -158,6 +158,21 @@ p {
 
 .secthree {
   background: var(--cloud);
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.secthree-title {
+text-transform: ;
+}
+
+.team {
+  background-color: #FFFFFF
+}
+
+.team-p {
+font-size: 16px
 }
 
 .secfour {
