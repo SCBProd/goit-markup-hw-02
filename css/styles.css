@@ -235,7 +235,7 @@ font-family: var(--second-family);
   line-height: 1.17
 }
 footer span {
-  color: var(--cloud);
+  color: #f4f4fd
 }
 footer p {
     color: #F4F4FD;
