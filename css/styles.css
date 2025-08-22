@@ -28,7 +28,7 @@ h1 {
   font-weight: 700;
   font-size: 18px;
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 60px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -39,9 +39,9 @@ h2 {
   font-size: 36px;  
 
    /* line-height: 24px; */
-   line-height: 1.11
+   line-height: 1.11;
    letter-spacing: 0.02em;
-   color: var(--navy-blue);
+   
 }
 h3 {
   font-weight: 500;
@@ -53,7 +53,12 @@ h3 {
     text-align: center;
     color: var(--navy-blue);
 }
-
+a {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+}
 p {
   font-weight: 400;
     font-size: 16px;
@@ -167,13 +172,13 @@ p {
   text-align: center;
 }
 .secthree-title {
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
 }
 
-.team {
+.image-list-secthree {
   background-color: #FFFFFF
 }
 
