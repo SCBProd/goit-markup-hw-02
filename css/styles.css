@@ -126,9 +126,9 @@ header address.contact ul li a {
   transition: color 0.3s;
 }
 
-header address.contact ul li a:hover,
-header address.contact ul li a:focus {
-  color: #404bbf;
+.nav-ref:focus,
+.nav-ref:hover {
+  color: var(--ocean);
 }
  
 
