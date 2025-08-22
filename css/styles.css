@@ -234,7 +234,7 @@ font-family: var(--second-family);
 .logo {
   line-height: 1.17
 }
-footer span {
+footer .header-logo-word {
   color: #f4f4fd
 }
 footer p {
