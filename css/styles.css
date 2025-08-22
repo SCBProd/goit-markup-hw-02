@@ -103,29 +103,31 @@ header address.contact {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
-header nav ul li {
+header nav ul li a {
   color: #2e2f42;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-header nav ul li a.link:hover,
-header nav ul li a.link:focus {
+header nav ul li a:hover,
+header nav ul li a:focus {
   color: #404bbf;
 }
 
 /* Контактні посилання */
-header address.contact ul li a.link {
+header address.contact ul li a {
   color: #434455;
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-header address.contact ul li a.link:hover,
-header address.contact ul li a.link:focus {
+header address.contact ul li a:hover,
+header address.contact ul li a:focus {
   color: #404bbf;
 }
  
