@@ -133,7 +133,7 @@ header address.contact ul li a:focus {
  
 
 /* Секція 1 */
-#secone {
+.secone {
   background: var(--navy-blue);
   font-family: var(--font-family);
   font-weight: 700;
@@ -143,7 +143,7 @@ header address.contact ul li a:focus {
       color: var(--white);
 }
 
-#secone button.order-button {
+.secone button.order-button {
 
   background: var(--iris);
 
@@ -157,7 +157,7 @@ header address.contact ul li a:focus {
 }
 
 
-#sectwo {
+.sectwo {
   font-weight: 400;
     font-size: 16px;
   
@@ -167,11 +167,11 @@ header address.contact ul li a:focus {
     color: var(--slate);
 }
 
-#secthree {
-background: var(--cloud);
+.secthree {
+  background: var(--cloud);
 }
 
-#secfour {
+.secfour {
   background: var(--white);
 }
 
