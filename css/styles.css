@@ -90,20 +90,7 @@ header nav ul.main-nav-list {
   color: var(--navy-blue);
 }
 
-/* 1. Колір тексту для першого посилання */
-header nav ul.main-nav-list li:first-child a.link {
-  color: #2e2f42;
-}
-
-/* 2. Зміна кольору при ховері */
-header nav ul.main-nav-list li:first-child a.link:hover {
-  color: #404bbf;
-}
-
-/* 3. Зміна кольору при фокусі */
-header nav ul.main-nav-list li:first-child a.link:focus {
-  color: #404bbf;
-}
+/*Взаємодія з контактними посиланнями */
 
 header address.contact {
   font-family: var(--font-family);
@@ -116,23 +103,34 @@ header address.contact {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
-// ...existing code...
-.contact-link {
+header nav ul li a.link {
+  color: #2e2f42;
+  font-weight: 500;
   letter-spacing: 0.02em;
-  /* Відступи між літерами */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header nav ul li a.link:hover,
+header nav ul li a.link:focus {
+  color: #404bbf;
+}
+
+/* Контактні посилання */
+header address.contact ul li a.link {
   color: #434455;
-  /* Колір шрифту */
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-.contact-link:hover {
+header address.contact ul li a.link:hover,
+header address.contact ul li a.link:focus {
   color: #404bbf;
-  /* Зміна кольору при наведенні */
 }
+ 
 
-.contact-link:focus {
-  color: #404bbf;
-  /* Зміна кольору при фокусі */
-}
+/* Секція 1 */
 #secone {
   background: var(--navy-blue);
   font-family: var(--font-family);
