@@ -113,10 +113,6 @@ header nav ul li a {
   transition: color 0.3s;
 }
 
-header nav ul li a:hover,
-header nav ul li a:focus {
-  color: #404bbf;
-}
 
 /* Контактні посилання */
 header address.contact ul li a {
