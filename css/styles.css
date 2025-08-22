@@ -64,67 +64,48 @@ p {
     color: var(--slate);
 }
 
-header a.logo {
-  font-family: var(--second-family);
+.header {
+  background-color: var(--white);
+}
+
+.header-logo-a {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
-    font-size: 18px;
-    /* line-height: 21px; */
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
+  font-size: 18px;
+  color: var(--iris);
+  background-color: var(--white);
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-
-header span.header-logo-word {
-  color: #2e2f42;
+.header-logo-word {
+  color: var(--grey);
 }
 
-
-
-header nav ul.main-nav-list {
- font-family: var(--font-family);
+.header-nav-ul a {
+  color: var(--navy-blue);
   font-weight: 500;
   line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 
-/*Взаємодія з контактними посиланнями */
-
-header address.contact {
-  font-family: var(--font-family);
+.header-address {
   font-style: normal;
-  font-weight: 400;
-    font-size: 16px;
-  
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
 }
-header nav ul li a {
-  color: #2e2f42;
-  font-weight: 500;
+
+.header address a {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-
-/* Контактні посилання */
-header address.contact ul li a {
-  color: #434455;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: color 0.3s;
+  color: var(--slate);
+  letter-spacing: 0.02em
 }
 
 .nav-ref:focus,
 .nav-ref:hover {
-  color: #404bbf;
+  color: var(--ocean);
 }
  
 
