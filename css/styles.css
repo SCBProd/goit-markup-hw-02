@@ -167,9 +167,10 @@ p {
   text-align: center;
 }
 .secthree-title {
-  font-size: 36px
-  line-height: 1.11
-text-transform:capitalize;
+  letter-spacing: 0.02em
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .team {
