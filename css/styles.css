@@ -16,6 +16,9 @@
     --second-family: "Raleway", sans-serif;
 }
 
+ ul {
+   list-style: none;
+ }
 
 body {
   color: var(--slate);
@@ -23,50 +26,56 @@ body {
   background-color: var(--white);
 }
 
-h1 {
- font-family: var(--second-family);
+.secone {
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  /* line-height: 21px; */
   line-height: 60px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--iris);
 }
 
-h2 {
-   font-weight: 500;
-  font-size: 36px;  
-
-   /* line-height: 24px; */
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   
-}
-h3 {
+/* Стиль для h2 у секціях */
+.sectwo-title,
+.secthree-title,
+.secfour-title {
   font-weight: 500;
-    font-size: 20px;
-  
-    /* line-height: 24px; */
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--navy-blue);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
-a {
+
+/* Стиль для h3 у секціях sectwo, team, secfour */
+.sectwo-htwo,
+.team-h,
+.secfour-htree {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+/* Стиль для абзаців */
+.sectwo-p,
+.team-p,
+.secfour-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Стиль для посилань */
+.nav-ref,
+.header-logo-a,
+.logo {
   text-decoration: none;
   font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 16px;
-}
-p {
-  font-weight: 400;
-    font-size: 16px;
-  
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
 .header {
