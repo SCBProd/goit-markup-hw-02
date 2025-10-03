@@ -218,7 +218,7 @@ footer {
   background: var(--navy-blue);
 }
 
-footer-description {
+.footer-description {
   font-weight: 400;
     font-size: 16px;
   
